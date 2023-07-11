@@ -1,0 +1,125 @@
+.store_manager_dashboard {
+  display: flex;
+  min-height: 100vh;
+  margin: 0 130px;
+  flex-direction: column;
+}
+
+.store_dahsboard_container {
+  display: flex;
+  flex-direction: row;
+}
+
+.main_store_dashboard {
+  min-height: 87vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-left: -10px;
+  background-color: #f8f8f8;
+  padding: 15px 18px 0 30px;
+}
+
+.store_item_container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.stock_top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #fff;
+  padding: 25px 25px 18px 25px;
+}
+
+.stock_top > h5 {
+  font-size: 19px;
+  color: #575757;
+}
+
+.stock_top > div {
+  display: flex;
+  border-radius: 20px;
+  flex-direction: row;
+  background-color: #f8f8f8;
+  align-items: center;
+}
+
+.stock_top > div > div {
+  display: flex;
+  padding-left: 3px;
+  padding-right: 5px;
+  flex-direction: row;
+  align-items: center;
+}
+.stock_top > div > div input {
+  border: none;
+  padding: 6px;
+  font-size: 12px;
+  padding: 0 5px;
+  background-color: #f8f8f8;
+}
+
+.stock_top > div span {
+  background-color: #311bc0;
+  padding: 6px 25px;
+  font-size: 14px;
+  border-radius: 20px;
+  color: #fff;
+}
+
+.manage_store_items_ct {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 20px 45px 30px 45px;
+}
+
+.manage_store_items {
+  display: flex;
+  padding: 2px 0;
+  flex-direction: column;
+}
+
+.manage_store_items > div {
+  display: flex;
+  padding-top: 18px;
+  padding-bottom: 5px;
+  flex-direction: row;
+  width: 55%;
+}
+.manage_store_item {
+  width: 100% !important;
+}
+
+.manage_store_items > div span {
+  font-size: 13px;
+}
+
+.number {
+  width: 20%;
+}
+.product_id {
+  width: 23%;
+}
+.product_name {
+  width: 33%;
+}
+.category {
+  width: 33%;
+}
+.cost_price {
+  width: 25%;
+}
+
+.quantity {
+  width: 22%;
+}
+.store_manager_hr {
+  border: none;
+  height: 1px;
+  background-color: #b6b4b4;
+}
