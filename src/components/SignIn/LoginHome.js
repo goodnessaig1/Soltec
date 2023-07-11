@@ -19,7 +19,7 @@ const LoginHome = () => {
               />
             </div>
             <p>Member Login</p>
-            <Link to='/user/salesrep/login' className='login_btn'>
+            <Link to='/user/login' className='login_btn'>
               Login
             </Link>
           </div>
