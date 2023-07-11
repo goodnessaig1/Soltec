@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import { FaCaretDown } from 'react-icons/fa';
 import { GoReport } from 'react-icons/go';
 import { TbCup } from 'react-icons/tb';
